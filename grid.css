@@ -28,8 +28,6 @@
 .grid-row-fix-2 {
     display: flex;
     flex-wrap: wrap;
-    margin-left: -4px;
-    margin-right: -4px;
     padding-top: 20px;
     height: 41.5%;
     justify-content: space-evenly;
