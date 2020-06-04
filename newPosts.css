@@ -193,3 +193,97 @@
     width: 100px;
     height: 40px;
 }
+/* Rank */
+.rank-container{
+    margin-top: 25px;
+    height: 420px;
+    width: 335px;
+    border: 1px solid #e8e8e8;
+    border-top: solid 6px hsl(216,31%,10%);
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    background-color: #FFF;
+}
+.rank-list-wrap{
+    width: 85%;
+    margin: auto;
+}
+.rank-title{
+    margin-left: 15px;
+}
+.rank-title-link:hover .rank-title-text{
+    color: #00bad7;
+}
+.rank-title-text{
+    color: #151D28;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.rank-list-item{
+    display: flex;
+}
+.rank-list-item-infor{
+    flex: 1;
+}
+.rank-list-item-avt{
+    width: 35px;
+    margin-right: 10px;
+}
+.rank-list-item-avt-link{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.rank-list-item-avt-img{
+    border-radius: 50%;
+}
+.rank-list-item-infor-achi{
+    display: flex;
+    align-items: center;
+}
+.respect{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(45deg, rgb(71, 181, 227) 0%, rgb(39, 255, 239) 100%);
+    height: 20px;
+    max-width: 50%;
+    color: #151D28;
+    font-size: 1.0rem;
+    font-weight: 700;
+    padding-right: 5px;
+    border-radius: 3px;
+    text-align: center;
+    margin: 0;
+}
+.hounor{
+    margin: 0;
+    text-transform: uppercase;
+    color: #AAA;
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-left: 10px;
+}
+.ranker-name{
+    margin: 0;
+    color: #151D28;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+.ranker-name:hover{
+    color: #00bad7;
+}
+.rank-list-item-posts{
+    display: flex;
+    align-items: flex-end;
+}
+.rank-list-item-posts-total{
+    margin: 0;
+    color: #AAA;
+    font-size: 1.2rem;
+}
+.separate-rank{
+    height: 1px;
+    background-color: #e6e6e6;
+    margin: 10px auto 10px;
+}
