@@ -82,6 +82,11 @@
     max-width: 31%;
 }
 
+.c-4-fix-newPosts {
+    flex: 0 0 30.5%;
+    max-width: 30.5%;
+}
+
 .c-5 {
     flex: 0 0 41.66667%;
     max-width: 41.66667%;
@@ -106,7 +111,12 @@
     flex: 0 0 66.66667%;
     max-width: 66.66667%;
 }
-  
+
+.c-8-fix {
+    flex: 0 0 69.5%;
+    max-width: 69.5%;
+}
+
 .c-9 {
     flex: 0 0 75%;
     max-width: 75%;
