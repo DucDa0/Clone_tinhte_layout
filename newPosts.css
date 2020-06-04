@@ -1,14 +1,8 @@
 .new-posts-container{
-    height: 2800px;
+    height: 2900px;
 }
 .new-posts-content{
     height: 100%;
-}
-.new-posts-side{
-    
-}
-.new-posts-main{
-    
 }
 .new-posts-side-ad-wrap{
     height: 285px;
@@ -289,7 +283,7 @@
 }
 /* new post */
 .new-posts-main-question-wrap{
-    height: 235px;
+    height: 245px;
     
 }
 .new-posts-main-question-section{
@@ -358,4 +352,98 @@
     font-size: 1.4rem;
     display: inline-block;
     margin: 0 5px 0 15px;
+}
+/* main post */
+.new-posts-main-body{
+    margin-top: 20px;
+}
+.new-posts-main-body-wrap{
+    position: relative;
+}
+.new-posts-main-body-container{
+    background-color: #FFF;
+    box-shadow: 0 1px 4px 0 rgba(102,98,98,0.4);
+    border-radius: 12px;
+    height: 2540px;
+}
+.new-posts-main-body-title{
+    margin-bottom: 20px;
+}
+.new-posts-main-body-title-text{
+    color: #151D28;
+    font-size: 1.8rem;
+    margin: 0;
+}
+.new-posts-main-body-content{
+    width: 94%;
+    margin: auto;
+    display: flex;
+    padding-bottom: 20px;
+    padding-top: 25px;
+}
+.new-posts-main-body-content-frame{
+    margin-right: 25px;
+}
+.new-posts-main-body-content-img{
+    width: 250px;
+    height: 154px;
+    border-radius: 12px;
+}
+.new-posts-main-body-content-infor-link:hover .new-posts-main-body-content-infor-title-text{
+    color: #00bad7;
+}
+.new-posts-main-body-content-infor-link{
+    text-decoration: none;
+}
+.new-posts-main-body-content-infor-title-text{
+    margin: 0;
+    font-size: 2.0rem;
+    color: #151D28;
+}
+.new-posts-main-body-content-infor-artcle-text{
+    margin: 0;
+    font-size: 1.325rem;
+    color: #151D28;
+}
+.new-posts-main-body-content-infor-user{
+    display: flex;
+    align-items: center;
+}
+.new-posts-main-body-content-infor-user-img{
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.new-posts-main-body-content-infor-user-name{
+    color: #00bad7;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-right: 10px;
+}
+.new-posts-main-body-content-infor-user-time{
+    color: #AAA;
+    font-size: 1.2rem;
+}
+.new-posts-main-body-btn{
+    position: absolute;
+    left: 40%;
+    top: 99.1%;
+}
+.new-posts-main-body-btn:hover .new-posts-main-body-btn-link{
+    color: #39F1E9;
+}
+.new-posts-main-body-btn-link{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: 700;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 185px;
+    height: 45px;
+    color: #FFF;
+    background-color: #151D28;
 }
