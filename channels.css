@@ -1,6 +1,6 @@
 .channels-container{
-    background-color: #161D28;
-    height: 200px;
+    background-color: #151D28;
+    height: 210px;
     border-bottom-left-radius: 12px;
     border-bottom-right-radius: 12px;
 }
@@ -56,6 +56,7 @@
 .feed-icon{
     font-size: 2.6rem;
     padding-right: 5px;
+    color: #151D28;
 }
 .channels-feed-text{
     color: #151D28;
