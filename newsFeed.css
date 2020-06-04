@@ -33,6 +33,7 @@
     height: 310px;
     box-shadow: 0 1px 4px 0 rgba(102,98,98,0.4);
     border-radius: 5px;
+    background-color: #FFF;
 }
 .news-feed-body-container{
     height: 100%;

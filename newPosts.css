@@ -1,0 +1,125 @@
+.new-posts-container{
+    height: 2800px;
+}
+.new-posts-content{
+    height: 100%;
+}
+.new-posts-side{
+    
+}
+.new-posts-main{
+    
+}
+.new-posts-side-ad-wrap{
+    height: 285px;
+    width: 335px;
+    border-radius: 12px;
+    box-shadow: 0 1px 4px 0 rgba(21, 16, 16, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF;
+}
+.new-posts-side-ad-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.new-posts-side-ad-link{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.new-posts-side-ad-cancel{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+/* community */
+.new-posts-side-community-wrap{
+    margin-top: 25px;
+    height: 1130px;
+    width: 335px;
+    position: relative;
+}
+.new-posts-side-community-content{
+    height: 100%;
+    border: 1px solid #e8e8e8;
+    border-top: solid 6px hsl(216,31%,10%);
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    background-color: #FFF;
+}
+.seperate-community{
+    width: 90%;
+    height: 1px;
+    background-color: #e6e6e6;
+    margin: 0 auto 10px;
+}
+.new-posts-side-community-title{
+    display: flex;
+    align-items: center;
+    margin: 15px auto;
+    cursor: pointer;
+}
+.new-posts-side-community-title:hover .new-posts-side-community-link{
+    color:#00bad7;
+}
+.new-posts-side-community-link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: #151D28;
+    font-weight: 700;
+    height: 40px;
+    padding-left: 20px;
+}
+.new-posts-side-community-main-item{
+    margin-left: 25px;
+    margin-bottom: 12px;
+}
+.new-posts-side-community-main-item-link{
+    text-decoration: none;
+    display: flex;
+}
+.new-posts-side-community-main-item-img{
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.new-posts-side-community-main-item:hover .new-posts-side-community-main-item-name{
+   color: #00bad7;
+}
+.new-posts-side-community-main-item-name{
+    font-size: 1.3rem;
+    color: #151D28;
+    font-weight: 700;
+    margin: 0;
+}
+.new-posts-side-community-main-item-tag{
+    font-size: 1.3rem;
+    color: #AAA;
+    font-weight: 500;
+    margin: 0;
+}
+.new-posts-side-community-btn{
+    position: absolute;
+    left: 20%;
+    top: 98.5%;
+}
+.new-posts-side-community-btn-link{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: 700;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 45px;
+    color: #FFF;
+    background-color: #151D28;
+}
