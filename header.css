@@ -7,6 +7,9 @@
     height: 100%;
     background-color: #192433;
 }
+.logo:hover .changeColor{
+    fill: #1AFFFF;
+}
 .top-header{
     display: flex;
     width: 62.5%;
