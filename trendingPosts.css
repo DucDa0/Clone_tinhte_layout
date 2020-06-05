@@ -1,0 +1,49 @@
+.trending-posts-container{
+    margin-top: 60px;
+}
+.trending-posts-side-discuss-wrap{
+    height: 390px;
+    width: 335px;
+    position: relative;
+}
+.treding-posts-side-content{
+    height: 100%;
+    border: 1px solid #e8e8e8;
+    border-top: solid 6px hsl(216,31%,10%);
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    background-color: #FFF;
+}
+.treding-posts-side-title{
+    margin-left: 15px;
+}
+.treding-posts-side-title-link:hover .treding-posts-side-title-text{
+    color: #00bad7;
+}
+.treding-posts-side-title-text{
+    color: #151D28;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.treding-posts-side-frame{
+    width: 93%;
+    margin: 15px auto auto auto;
+}
+.treding-posts-side-fram-link{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.treding-posts-side-fram-link:hover .treding-posts-side-frame-text{
+    color: #00bad7;
+}
+.treding-posts-side-img{
+    width: 310px;
+    height: 195px;
+    border-radius: 12px;
+}
+.treding-posts-side-frame-text{
+    color: #151D28;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
