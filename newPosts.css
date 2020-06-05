@@ -396,13 +396,13 @@
     text-decoration: none;
 }
 .new-posts-main-body-content-infor-title-text{
-    margin: 0;
+    margin: 0 0 10px 0;
     font-size: 2.0rem;
     color: #151D28;
 }
 .new-posts-main-body-content-infor-artcle-text{
-    margin: 0;
-    font-size: 1.325rem;
+    margin: 0 0 10px 0;
+    font-size: 1.4rem;
     color: #151D28;
 }
 .new-posts-main-body-content-infor-user{
