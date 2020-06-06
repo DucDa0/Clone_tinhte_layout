@@ -2,7 +2,7 @@ html{
     /*HACK*/
     font-size: 62.5%;
     line-height: 1.4rem;
-    font-family: 'roboto', sans-serif;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
     box-sizing: border-box;
 }
 body{
