@@ -308,6 +308,7 @@
 }
 .new-posts-main-question-wrap-link{
     text-decoration: none;
+    display: block;
 }
 .new-posts-main-question-section-title{
     padding: 32px 0 15px;
@@ -330,10 +331,14 @@
     border-radius: 50%;
     border: 2px solid #00bad7;
 }
+.new-posts-main-question-content{
+    width: 100%;
+}
 .new-posts-main-question-content-wrap{
     background-color: #EFF1F3;
     border-radius: 12px;
-    height: 100px;
+    height: auto;
+    width: 100%;
 }
 .new-posts-main-question-content-name{
     color: #00bad7;
@@ -352,6 +357,7 @@
     font-size: 1.4rem;
     display: inline-block;
     margin: 0 5px 0 15px;
+    padding-bottom: 10px;
 }
 /* main post */
 .new-posts-main-body{
@@ -364,10 +370,13 @@
     background-color: #FFF;
     box-shadow: 0 1px 4px 0 rgba(102,98,98,0.4);
     border-radius: 12px;
-    height: 2530px;
+    height: auto;
+}
+.new-posts-main-body-container .new-posts-main-body-content:last-child{
+    padding-bottom: 70px;
 }
 .new-posts-main-body-title{
-    margin-bottom: 20px;
+    margin-bottom: 22px;
 }
 .new-posts-main-body-title-text{
     color: #151D28;
@@ -427,7 +436,7 @@
 }
 .new-posts-main-body-btn{
     position: absolute;
-    left: 40%;
+    left: 39%;
     top: 99.1%;
 }
 .new-posts-main-body-btn:hover .new-posts-main-body-btn-link{

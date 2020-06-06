@@ -1,0 +1,177 @@
+.tips-questions-container{
+    margin-top: 25px;
+}
+.tips-questions-side-content{
+    box-shadow: 0 1px 4px 0 rgba(102,98,98,0.4);
+    border-radius: 12px;
+    width: 335px;
+    height: auto;
+    background-color: #FFF;
+    position: relative;
+}
+.tips-questions-side-content::before{
+    content: "";
+    position: absolute;
+    border-top: 9px solid transparent;
+    border-right: 12px solid #FFF;
+    background-color: #B42D4D;
+}
+.tips-questions-side-content-wrap{
+    display: flex;
+    width: 92%;
+    margin: auto;
+    padding-top: 12px;
+    flex-direction: column;
+}
+.tips-questions-side-title{
+    background-color: #B42D4D;
+    width: 160px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    border-top-right-radius: 8px;
+}
+.tips-questions-side-title-text{
+    font-size: 1.8rem;
+    margin: 0;
+    color: #FFF;
+    padding-left: 10px;
+}
+.tips-questions-side-content-item{
+    margin-bottom: 15px;
+}
+.tips-questions-side-content-item:hover .tips-questions-side-content-item-text{
+    color: #00bad7;
+}
+.tips-questions-side-content-item-link{
+    text-decoration: none;
+    display: flex;
+    height: 73px;
+}
+.tips-questions-side-content-item-img{
+    width: 118px;
+    height: 73px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.tips-questions-side-content-item-article{
+    overflow: hidden;
+}
+.tips-questions-side-content-item-text{
+    color: 	#151D28;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.tips-questions-side-btn{
+    margin: 2px 0 20px 0;
+}
+.tips-questions-side-link{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: 700;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 45px;
+    color: #FFF;
+    background-color: #00BAD6;
+}
+/* Questions */
+.tips-questions-main-wrap{
+    position: relative;
+    height: auto;
+    border: 1px solid #e8e8e8;
+    border-top: solid 6px hsl(216,31%,10%);
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    background-color: #FFF;
+}
+.tips-questions-main-title{
+    width: 97%;
+    margin: auto;
+    border-bottom: 1px solid #e6e6e6;
+}
+.tips-questions-main-title:hover .tips-questions-main-title-text{
+    color: #00BAD6;
+}
+.tips-questions-main-title-link{
+    text-decoration: none;
+}
+.tips-questions-main-title-text{
+    color: #151D28;
+    font-size: 1.8rem;
+    margin: 0;
+    padding: 22px 0 17px 0;
+}
+.tips-questions-main-section-wrap{
+    width: 94%;
+    margin: auto;
+}
+.tips-questions-main-section-wrap .tips-questions-main-section-article:first-child{
+    padding-top: 17px;
+}
+.tips-questions-main-section-article{
+    margin-bottom: 40px;
+}
+.tips-questions-main-section-article:hover .tips-questions-main-section-text{
+    color: #00BAD6;
+}
+.tips-questions-main-section-wrap-link{
+    text-decoration: none;
+}
+.tips-questions-main-section-title{
+    padding-bottom: 15px;
+}
+.tips-questions-main-section-text{
+    margin: 0;
+    font-size: 1.8rem;
+    color: #151D28;
+    font-size: 600;
+}
+.tips-questions-main-section-infor{
+    display: flex;
+}
+.tips-questions-main-section-infor-avt{
+    margin-right: 12px;
+}
+.tips-questions-main-section-infor-img{
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    border: 2px solid #00bad7;
+}
+.tips-questions-main-section-content{
+    width: 100%;
+}
+.tips-questions-main-section-content-wrap{
+    background-color: #EFF1F3;
+    border-radius: 12px;
+    height: auto;
+    width: 100%;
+}
+.tips-questions-main-section-content-name{
+    color: #00bad7;
+    font-size: 1.3rem;
+    font-weight: 700;
+    display: inline-block;
+    margin: 10px 0 5px 15px;
+}
+.tips-questions-main-section-content-time{
+    color: #AAA;
+    font-size: 1.2rem;
+    margin-left: 10px;
+}
+.tips-questions-main-section-content-text{
+    color: #151D28;
+    font-size: 1.4rem;
+    display: inline-block;
+    margin: 0 5px 0 15px;
+    padding-bottom: 10px;
+}
+.new-posts-main-body-btn.tbn-for-question-content{
+    left: 39%;
+    top: 97.5%;
+}
