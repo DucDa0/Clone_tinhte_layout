@@ -13,7 +13,7 @@
 .events-side-oldeEvent-title{
     padding: 10px 10px 10px;
 }
-.events-side-oldeEvent-title:hover .events-side-oldeEvent-title-text{
+.events-side-oldeEvent-title-link:hover .events-side-oldeEvent-title-text{
     color: #00bad7;
 }
 .events-side-oldeEvent-title-link{
