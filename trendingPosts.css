@@ -212,7 +212,7 @@
    
     border-bottom: 1px solid #2a3a50;
 }
-.hot-posts-body-content-col-1-article-item:hover .col-1-post-wrap{
+.hot-posts-body-content-col-1-post-link:hover .col-1-post-wrap{
     color: #1affff;
 }
 .hot-posts-body-content-col-1-post-link{
