@@ -1,0 +1,110 @@
+.video-container{
+    margin-top: 40px;
+}
+.new-posts-side-ad-wrap.ad-for-videoContent{
+    height: 635px;
+}
+/* video */
+.video-main-wrap{
+    border-radius: 12px;
+    box-shadow: 0 1px 4px 0 rgba(102,98,98,0.4);
+    height: auto;
+    background-color: #FFF;
+    padding: 24px 24px 48px;
+}
+.video-main-body-wrap{
+    
+    position: relative;
+}
+.video-main-body-content{
+    height: 442px;
+}
+.video-main-body-videoInfor{
+    background-color: #30645A;
+}
+.video-main-body-videoInfor-others{
+    padding: 0 0 15px 10px;
+}
+.video-main-body-videoInfor-content{
+    margin: 0;
+    font-size: 1.55rem;
+    font-weight: 300;
+    color: #FFF;
+    padding: 15px 0 0 10px;
+}
+.video-main-body-videoInfor-time{
+    font-size: 1.2rem;
+    color: #AAA;
+}
+.video-main-body-videoInfor-view{
+    font-size: 1.2rem;
+    color: #AAA;
+}
+.video-main-body-videoInfor-view::before{
+    content: " - ";
+    font-size: 1.2rem;
+    color: #AAA;
+}
+.video-main-body-videoInfor-view::after{
+    content: " lượt xem";
+    font-size: 1.2rem;
+    color: #AAA;
+}
+.video-main-body-list-item-link{
+    text-decoration: none;
+    display: flex;
+    width: 96%;
+    margin: auto;
+}
+.video-main-body-list-frame{
+    height: 53px;
+    margin-right: 10px;
+}
+.video-main-body-list-img{
+    width: 95px;
+    height: 53px;
+}
+.video-main-body-list{
+    background-color: #1A1A1A;
+}
+.video-main-body-list-wrap{
+    height: 290px;
+    overflow-y: scroll;
+}
+.video-main-body-list-wrap .video-main-body-list-item:first-child{
+    background-color: #404040;
+    border-left: 3px solid #369f1a;
+}
+.video-main-body-list-item{
+    padding: 12px 0;
+}
+.video-main-body-list-item-content-title{
+    margin: 0;
+    font-size: 1.55rem;
+    font-weight: 300;
+    color: #FFF;
+}
+.new-posts-main-body-btn-link.tbn-for-video-content{
+    width: 280px;
+}
+.new-posts-main-body-btn.tbn-for-video-content{
+    top: 103%;
+    left: 32.5%;
+}
+.video-main-title-link{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+.video-main-title-link:hover{
+    text-decoration: underline;
+}
+.video-main-title{
+    padding: 0px 0 20px 0px;
+}
+.video-main-title-text{
+    font-size: 1.8rem;
+    color: #151D28;
+    font-weight: 700;
+    padding-left: 10px;
+}
