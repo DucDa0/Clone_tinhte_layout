@@ -4,7 +4,7 @@
 .tags-hot-wrap{
     background-color: #192433;
     border-radius: 12px;
-    height: 555px;
+    height: auto;
 }
 .tags-hot-title-text{
     margin: 0;

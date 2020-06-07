@@ -1,41 +1,44 @@
 .tinNoiBat-container{
     background-color: #192433;
-    height: 830px;
+    height: auto;
 }
 .tinNoiBat-head-container{
     text-decoration: none;
     margin-top: 3px;
     background-color: #151D28;
-    height: 100%;
+    height: auto;
 }
 .tinNoiBat-head-container:hover .tinNoiBat-head-title{
     color: #1AFFFF;
 }
-.tinNoiBat-head-img{
-    width: 100%;
+.tinNoiBat-head-img-container{
     height: 370px;
 }
+.tinNoiBat-head-img{
+    width: 100%;
+    height: 100%;
+}
 .tinNoiBat-head-title-container{
-    height: 13%;
-    width: 95%;
+    height: 15%;
+    padding: 0;
 }
 .tinNoiBat-head-title-head{
-    margin-top: 0;
-    padding-left: 10px;
+    margin: 0;
+    padding: 10px;
 }
 .tinNoiBat-head-title{
     color: #FFF;
     font-size: 1.8rem;
 }
 .tinNoiBat-head-ngDang{
-    padding-left: 10px;
+    padding: 10px;
     display: flex;
     align-items: center;
-    height: 2%;
+    height: auto;
 }
 .tinNoiBat-head-ngDang-head{
     padding-right: 10px;
-    margin-bottom: 0;
+    margin: 0;
 }
 .tinNoiBat-head-ngDang-name{
     color: #00BAD6;
@@ -48,7 +51,7 @@
 .tinNoiBat-head-comment-head{
     color: #AAA;
     font-size: 1.2rem;
-    margin-bottom: 0;
+    margin: 0;
 }
 .comment-icon{
     color: #AAA;
@@ -62,9 +65,12 @@
 .tinNoiBat-bottom-container:hover .tinNoiBat-bottom-title{
     color: #1AFFFF;
 }
+.tinNoiBat-bottom-img-container{
+    height: 232px;
+}
 .tinNoiBat-bottom-img{
     width: 100%;
-    height: 232px;
+    height: 100%;
     border-radius: 15px;
 }
 .tinNoiBat-bottom-title{
@@ -72,13 +78,17 @@
     font-size: 1.6rem;
 }
 .tinNoiBat-bottom-title-head{
-    margin-top: 0;
+    margin: 0;
 }
 .tinNoiBat-bottom-ngDang{
     display: flex;
     align-items: center;
+    padding: 5px 0 5px;
 }
 .tinNoiBat-bottom-ngDang-head{
-    margin-top: 0;
+    margin: 0;
     padding-right: 10px;
+}
+.tinNoiBat-bottom-title-container{
+    padding: 10px 0 5px;
 }
