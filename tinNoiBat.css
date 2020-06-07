@@ -31,10 +31,9 @@
     font-size: 1.8rem;
 }
 .tinNoiBat-head-ngDang{
-    padding: 10px;
     display: flex;
     align-items: center;
-    height: auto;
+    margin: 10px 0 10px 10px;
 }
 .tinNoiBat-head-ngDang-head{
     padding-right: 10px;
