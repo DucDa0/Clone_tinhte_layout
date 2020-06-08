@@ -18,9 +18,7 @@
 }
 .tips-questions-side-content-wrap{
     display: flex;
-    width: 92%;
-    margin: auto;
-    padding-top: 12px;
+    padding: 12px 15px 20px;
     flex-direction: column;
 }
 .tips-questions-side-title{
@@ -62,9 +60,6 @@
     font-size: 1.4rem;
     font-weight: 600;
 }
-.tips-questions-side-btn{
-    margin: 2px 0 20px 0;
-}
 .tips-questions-side-link{
     text-decoration: none;
     text-transform: uppercase;
@@ -90,8 +85,7 @@
     background-color: #FFF;
 }
 .tips-questions-main-title{
-    width: 97%;
-    margin: auto;
+    margin: 0 15px 0;
     border-bottom: 1px solid #e6e6e6;
 }
 .tips-questions-main-title:hover .tips-questions-main-title-text{
@@ -107,12 +101,9 @@
     padding: 22px 0 17px 0;
 }
 .tips-questions-main-section-wrap{
-    width: 94%;
-    margin: auto;
+    padding: 17px 25px 0;
 }
-.tips-questions-main-section-wrap .tips-questions-main-section-article:first-child{
-    margin-top: 17px;
-}
+
 .tips-questions-main-section-article{
     margin-bottom: 40px;
 }

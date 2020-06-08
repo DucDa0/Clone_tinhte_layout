@@ -67,9 +67,8 @@
     height: 347px;
 }
 .trending-posts-main-outstandingPosts-content{
-    width: 87%;
     height: 100%;
-    margin: auto;
+    margin: 0 55px;
     display: flex;
     overflow-x: scroll;
     align-items: center;
@@ -170,7 +169,7 @@
     justify-content: space-between;
 }
 .hot-posts-title{
-    padding: 0 0 15px 0;
+    margin: 0 0 15px 0;
 }
 .hot-posts-title-text{
     margin: 0;

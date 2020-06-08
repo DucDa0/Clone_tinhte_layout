@@ -53,8 +53,6 @@
 .video-main-body-list-item-link{
     text-decoration: none;
     display: flex;
-    width: 96%;
-    margin: auto;
 }
 .video-main-body-list-frame{
     height: 53px;
@@ -76,7 +74,7 @@
     border-left: 3px solid #369f1a;
 }
 .video-main-body-list-item{
-    padding: 12px 0;
+    padding: 12px 12px;
 }
 .video-main-body-list-item-content-title{
     margin: 0;

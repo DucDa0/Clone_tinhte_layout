@@ -21,6 +21,7 @@
 .tinNoiBat-head-title-container{
     height: 15%;
     padding: 0;
+    overflow: hidden;
 }
 .tinNoiBat-head-title-head{
     margin: 0;
@@ -57,10 +58,12 @@
 }
 
 /* bottom */
+.tinNoiBat-bottom{
+    margin-top: 20px;
+}
 .tinNoiBat-bottom-container{
     text-decoration: none;
-    height: 100%;
-    margin-top: 20px;
+    height: auto;
 }
 .tinNoiBat-bottom-container:hover .tinNoiBat-bottom-title{
     color: #1AFFFF;

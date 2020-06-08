@@ -21,14 +21,13 @@
 
 /* body */
 .tags-hot-body-wrap{
-    width: 95.5%;
-    margin: auto;
+    padding: 0 30px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 .tags-hot-body-item{
-    margin-bottom: 28px;
+    margin-bottom: 30px;
 }
 .tags-hot-body-item:hover .tags-hot-body-item-tagName{
     color: #1affff;
