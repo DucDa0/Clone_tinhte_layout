@@ -56,8 +56,9 @@
 .new-posts-side-community-title{
     display: flex;
     align-items: center;
-    margin: 15px auto;
+    margin: 10px 10px;
     cursor: pointer;
+    border-bottom: 1px solid #e8e8e8;
 }
 .new-posts-side-community-title:hover .new-posts-side-community-link{
     color:#00bad7;
@@ -69,16 +70,14 @@
     font-size: 1.8rem;
     color: #151D28;
     font-weight: 700;
-    height: 40px;
-    padding-left: 20px;
+    padding: 15px 0;
 }
 .new-posts-side-community-main{
     height: auto;
-    padding-bottom: 45px;
+    padding: 0px 25px 40px;
 }
-.new-posts-side-community-main-item{
-    margin-left: 25px;
-    margin-bottom: 12px;
+.new-posts-side-community-main-item{ 
+    padding: 6px 0; 
 }
 .new-posts-side-community-main-item-link{
     text-decoration: none;
@@ -88,7 +87,7 @@
     border-radius: 5px;
     margin-right: 10px;
 }
-.new-posts-side-community-main-item:hover .new-posts-side-community-main-item-name{
+.new-posts-side-community-main-item-link:hover .new-posts-side-community-main-item-name{
    color: #00bad7;
 }
 .new-posts-side-community-main-item-name{
@@ -137,9 +136,8 @@
     background-color: #FFF;
 }
 .app-download-title{
-    width: 90%;
-    margin-left: 10px;
-    margin-top: 10px;
+    margin: 15px 10px 0;
+    border-bottom: 1px solid #e6e6e6;
 }
 .app-download-title-name-link{
     text-decoration: none;
@@ -156,7 +154,7 @@
 .app-download-title-infor{
     font-size: 1.4rem;
     color: #AAA;
-    margin: 0 auto 10px;
+    margin: 0;
 }
 .separate-download{
     width: 90%;
@@ -165,20 +163,22 @@
     margin: 0 auto 10px;
 }
 .app-download-frame{
+    padding: 15px 15px 0;
+    height: 160px;
+}
+.app-download-frame-link{
+    text-decoration: none;
     display: flex;
-    justify-content: center;
-    margin-top: 15px;
 }
 .app-download-frame-img{
-    width: 310px;
-    height: 160px;
+    height: 100%;
+    width: 100%;
 }
 .app-download-content{
     display: flex;
     justify-content: center;
     background-color: #eff1f3;
-    width: 92.5%;
-    margin: auto;
+    margin: 0 15px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
@@ -195,7 +195,7 @@
 /* Rank */
 .rank-container{
     margin-top: 25px;
-    height: 420px;
+    height: auto;
     width: 100%;
     border: 1px solid #e8e8e8;
     border-top: solid 6px hsl(216,31%,10%);
@@ -204,11 +204,14 @@
     background-color: #FFF;
 }
 .rank-list-wrap{
-    width: 85%;
-    margin: auto;
+    padding: 0 25px 20px;
+}
+.rank-list-wrap .rank-list-item:last-child{
+    border-bottom: unset;
 }
 .rank-title{
-    margin-left: 15px;
+    margin: 0 15px;
+    border-bottom: 1px solid #e6e6e6;
 }
 .rank-title-link:hover .rank-title-text{
     color: #00bad7;
@@ -220,6 +223,8 @@
 }
 .rank-list-item{
     display: flex;
+    border-bottom: 1px solid #e6e6e6;
+    padding: 10px 0;
 }
 .rank-list-item-infor{
     flex: 1;

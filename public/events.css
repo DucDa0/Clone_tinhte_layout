@@ -11,21 +11,22 @@
     background-color: #FFF;
 }
 .events-side-oldeEvent-title{
-    padding: 10px 10px 10px;
-}
-.events-side-oldeEvent-title-link:hover .events-side-oldeEvent-title-text{
-    color: #00bad7;
+    margin: 0 10px;
+    border-bottom: 1px solid #e6e6e6;
 }
 .events-side-oldeEvent-title-link{
+    display: flex;
     text-decoration: none;
-}
-.events-side-oldeEvent-title-text{
     color: #151D28;
     font-size: 1.8rem;
-    margin: 5px 0;
+    font-weight: 600;
+    padding: 20px 0;
+}
+.events-side-oldeEvent-title-link:hover{
+    color: #00bad7;
 }
 .events-side-oldeEvent-content{
-    padding: 10px 10px 10px;
+    padding: 10px;
 }
 .events-side-oldeEvent-content-link:hover .events-side-oldeEvent-text{
     color: #00bad7;
