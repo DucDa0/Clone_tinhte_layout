@@ -3,7 +3,7 @@
 }
 .treding-posts-side-content{
     height: 390px;
-    width: 335px;
+    width: 100%;
     border: 1px solid #e8e8e8;
     border-top: solid 6px hsl(216,31%,10%);
     border-bottom-right-radius: 12px;

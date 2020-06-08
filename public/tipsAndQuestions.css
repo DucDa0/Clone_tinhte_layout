@@ -4,7 +4,7 @@
 .tips-questions-side-content{
     box-shadow: 0 1px 4px 0 rgba(102,98,98,0.4);
     border-radius: 12px;
-    width: 335px;
+    width: 100%;
     height: auto;
     background-color: #FFF;
     position: relative;

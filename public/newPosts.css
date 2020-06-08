@@ -3,7 +3,7 @@
 }
 .new-posts-side-ad-wrap{
     height: 285px;
-    width: 335px;
+    width: 100%;
     border-radius: 12px;
     box-shadow: 0 1px 4px 0 rgba(21, 16, 16, 0.4);
     display: flex;
@@ -23,6 +23,10 @@
     align-items: center;
     justify-content: center;
 }
+.new-posts-side-ad-img{
+    height: 100%;
+    width: 100%;
+}
 .new-posts-side-ad-cancel{
     position: absolute;
     top: 0;
@@ -32,7 +36,7 @@
 .new-posts-side-community-wrap{
     margin-top: 25px;
     height: auto;
-    width: 335px;
+    width: 100%;
     position: relative;
 }
 .new-posts-side-community-content{
@@ -125,7 +129,7 @@
 .app-download-container{
     margin-top: 75px;
     height: 335px;
-    width: 335px;
+    width: 100%;
     border: 1px solid #e8e8e8;
     border-top: solid 6px hsl(216,31%,10%);
     border-bottom-right-radius: 12px;
@@ -192,7 +196,7 @@
 .rank-container{
     margin-top: 25px;
     height: 420px;
-    width: 335px;
+    width: 100%;
     border: 1px solid #e8e8e8;
     border-top: solid 6px hsl(216,31%,10%);
     border-bottom-right-radius: 12px;
