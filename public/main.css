@@ -1,5 +1,4 @@
 html{
-    /*HACK*/
     font-size: 62.5%;
     line-height: 1.4rem;
     font-family: Roboto, Arial, Helvetica, sans-serif;
@@ -8,8 +7,7 @@ html{
 body{
     margin: 0;
     background-color: #f2f3f5;
-    
 }
 .main-container{
-    padding-top: 60px;
+    margin-top: 60px;
 }
