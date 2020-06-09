@@ -27,7 +27,7 @@
 }
 .treding-posts-side-frame{
     padding: 15px;
-    height: 190px;
+    height: auto;
 }
 .treding-posts-side-frame-link{
     display: flex;
