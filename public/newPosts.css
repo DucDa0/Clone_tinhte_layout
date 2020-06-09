@@ -31,6 +31,7 @@
     position: absolute;
     top: 0;
     right: 0;
+    height: 15px;
 }
 /* community */
 .new-posts-side-community-wrap{
@@ -85,7 +86,9 @@
 }
 .new-posts-side-community-main-item-img{
     border-radius: 5px;
-    margin-right: 10px;
+}
+.new-posts-side-community-main-item-infor{
+    margin-left: 10px;
 }
 .new-posts-side-community-main-item-link:hover .new-posts-side-community-main-item-name{
    color: #00bad7;
@@ -213,14 +216,18 @@
     margin: 0 15px;
     border-bottom: 1px solid #e6e6e6;
 }
-.rank-title-link:hover .rank-title-text{
-    color: #00bad7;
-}
-.rank-title-text{
+.rank-title-link{
+    display: flex;
+    text-decoration: none;
     color: #151D28;
     font-size: 1.8rem;
     font-weight: 700;
+    padding: 15px 0;
 }
+.rank-title-link:hover{
+    color: #00bad7;
+}
+
 .rank-list-item{
     display: flex;
     border-bottom: 1px solid #e6e6e6;
@@ -305,7 +312,7 @@
 .new-posts-main-question-section-wrap{
     padding: 0 25px 40px 25px;
 }
-.new-posts-main-question-section-wrap:hover .new-posts-main-question-section-text{
+.new-posts-main-question-wrap-link:hover .new-posts-main-question-section-text{
     color: #00bad7;
 }
 .new-posts-main-question-text{
@@ -441,7 +448,7 @@
 }
 .new-posts-main-body-btn{
     position: absolute;
-    left: 39%;
+    left: 40%;
     top: 99.1%;
 }
 .new-posts-main-body-btn:hover .new-posts-main-body-btn-link{

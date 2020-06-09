@@ -46,11 +46,13 @@
     display: flex;
     height: 73px;
 }
-.tips-questions-side-content-item-img{
-    width: 118px;
-    height: 73px;
-    border-radius: 10px;
+.tips-questions-side-content-item-frame{
     margin-right: 10px;
+}
+.tips-questions-side-content-item-img{
+    height: 73px;
+    width: 118px;
+    border-radius: 10px;
 }
 .tips-questions-side-content-item-article{
     overflow: hidden;

@@ -16,18 +16,18 @@
     color: #AAA;
     font-size: 1.4rem;
     margin: 0;
-    padding: 5px 0 25px 10px;
+    padding: 5px 0 0 10px;
 }
 
 /* body */
 .tags-hot-body-wrap{
-    padding: 0 30px;
+    padding: 15px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    align-items: stretch;
 }
 .tags-hot-body-item{
-    margin-bottom: 30px;
+    margin: 14px;
 }
 .tags-hot-body-item:hover .tags-hot-body-item-tagName{
     color: #1affff;
