@@ -11,21 +11,20 @@
 .tinNoiBat-head-container:hover .tinNoiBat-head-title{
     color: #1AFFFF;
 }
-.tinNoiBat-head-img-container{
-    height: 370px;
-}
 .tinNoiBat-head-img{
     width: 100%;
-    height: 100%;
+    max-width: 594px;
+    max-height: 370px;
+    height: auto;
 }
 .tinNoiBat-head-title-container{
-    height: 15%;
+    height: 60px;
     padding: 0;
     overflow: hidden;
 }
 .tinNoiBat-head-title-head{
     margin: 0;
-    padding: 10px;
+    padding: 0 10px 10px;
 }
 .tinNoiBat-head-title{
     color: #FFF;
@@ -68,12 +67,11 @@
 .tinNoiBat-bottom-container:hover .tinNoiBat-bottom-title{
     color: #1AFFFF;
 }
-.tinNoiBat-bottom-img-container{
-    height: 232px;
-}
 .tinNoiBat-bottom-img{
     width: 100%;
+    max-width: 372px;
     height: 100%;
+    max-height: 232px;
     border-radius: 15px;
 }
 .tinNoiBat-bottom-title{

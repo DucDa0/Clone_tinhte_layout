@@ -35,11 +35,13 @@
     text-decoration: none;
     display: flex;
 }
-.events-side-oldeEvent-img{
-    width: 150px;
-    height: 92px;
-    border-radius: 12px;
+.events-side-oldeEvent-frame{
     margin-right: 10px;
+}
+.events-side-oldeEvent-img{
+    max-width: 150px;
+    max-height: 92px;
+    border-radius: 12px;
 }
 .events-side-oldeEvent-article{
     overflow: hidden;

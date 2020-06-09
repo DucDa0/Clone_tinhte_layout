@@ -2,7 +2,7 @@
     margin-top: 50px;
 }
 .new-posts-side-ad-wrap{
-    height: 285px;
+    height: auto;
     width: 100%;
     border-radius: 12px;
     box-shadow: 0 1px 4px 0 rgba(21, 16, 16, 0.4);
@@ -12,25 +12,24 @@
     background-color: #FFF;
 }
 .new-posts-side-ad-content{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    padding: 20px;
     position: relative;
 }
 .new-posts-side-ad-link{
     text-decoration: none;
     display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.new-posts-side-ad-img{
     height: 100%;
     width: 100%;
 }
+.new-posts-side-ad-img{
+    height: auto;
+    width: 100%;
+    max-width: 300px;
+}
 .new-posts-side-ad-cancel{
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 7%;
+    right: 5.9%;
     height: 15px;
 }
 /* community */
@@ -167,15 +166,16 @@
 }
 .app-download-frame{
     padding: 15px 15px 0;
-    height: 160px;
+    height: auto;
 }
 .app-download-frame-link{
     text-decoration: none;
     display: flex;
 }
 .app-download-frame-img{
-    height: 100%;
-    width: 100%;
+    height: auto;
+    max-width: 305px;
+    width: 100%
 }
 .app-download-content{
     display: flex;
@@ -397,17 +397,15 @@
 }
 .new-posts-main-body-content{
     display: flex;
-    padding-bottom: 20px;
-    padding-top: 25px;
-    padding: 25px 25px 25px;
+    padding: 25px;
 }
 .new-posts-main-body-content-frame{
     margin-right: 25px;
     height: 154px;
 }
 .new-posts-main-body-content-img{
-    width: 250px;
-    height: 154px;
+    max-width: 250px;
+    height: 100%;
     border-radius: 12px;
 }
 .new-posts-main-body-content-infor-link:hover .new-posts-main-body-content-infor-title-text{

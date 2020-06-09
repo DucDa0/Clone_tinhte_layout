@@ -38,8 +38,9 @@
     color: #00bad7;
 }
 .treding-posts-side-img{
+    height: auto;
+    max-width: 305px;
     width: 100%;
-    height: 100%;
     border-radius: 12px;
 }
 .treding-posts-side-frame-text{
