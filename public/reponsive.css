@@ -3,14 +3,9 @@
 }
 /* Tablet  */
 @media (min-width: 740px) and (max-width: 1239px){
-    .wide{
-        width: 100%;
+    .tags-hot-body-wrap{
+       justify-content: center;
     }
-    /* .new-posts-container{
-        width: 98%;
-        margin-left: auto;
-        margin-right: auto;
-    } */
 }
 /* Mobile */
 @media (max-width: 739px){
