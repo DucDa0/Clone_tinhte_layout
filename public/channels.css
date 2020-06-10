@@ -12,12 +12,6 @@
     justify-content: center;
     padding-bottom: 10px;
 }
-/* .seprate-tinNoiBat{
-    width: 80%;
-    height: 1px;
-    margin: auto;
-    background-color: #262E40;
-} */
 .channels-item-link{
     text-decoration: none;
     display: flex;
@@ -45,7 +39,6 @@
 }
 .channels-feed-link{
     text-decoration: none;
-    display: inline-block;
     display: flex;
     align-items: center;
     justify-content: center;
