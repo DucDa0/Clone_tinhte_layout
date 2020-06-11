@@ -7,10 +7,10 @@
     justify-content: space-between;
 }
 .events-side{
-    max-width: 26%;
+    max-width: 28%;
 }
 .events-main{
-    max-width: 72%;
+    max-width: 70%;
 }
 .events-side-oldeEvent-wrap{
     height: auto;

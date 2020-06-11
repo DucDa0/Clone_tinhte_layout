@@ -7,7 +7,7 @@
     justify-content: space-between;
 }
 .new-posts-side{
-    max-width: 26%;
+    max-width: 28%;
 }
 .new-posts-side-ad-wrap{
     height: auto;
@@ -307,7 +307,7 @@
 }
 /* new post */
 .new-posts-main{
-    max-width: 72%;
+    max-width: 70%;
 }
 .new-posts-main-question-wrap{
     height: auto;

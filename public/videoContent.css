@@ -7,10 +7,10 @@
     justify-content: space-between;
 }
 .video-side{
-    max-width: 26%;
+    max-width: 28%;
 }
 .video-main{
-    min-width: 72%;
+    min-width: 70%;
 }
 /* video */
 .video-main-wrap{

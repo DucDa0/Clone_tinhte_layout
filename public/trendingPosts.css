@@ -7,7 +7,7 @@
     justify-content: space-between;
 }
 .trending-posts-side{
-    max-width: 26%;
+    max-width: 28%;
 }
 .treding-posts-side-content{
     height: auto;
@@ -60,7 +60,7 @@
 }
 /* trending-posts-main */
 .trending-posts-main{
-    max-width: 72%;
+    max-width: 70%;
 }
 .trending-posts-side-discuss-wrap{
     width: 100%;

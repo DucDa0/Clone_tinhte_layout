@@ -7,10 +7,10 @@
     justify-content: space-between;
 }
 .tips-questions-side{
-    max-width: 26%;
+    max-width: 28%;
 }
 .tips-questions-main{
-    max-width: 72%;
+    max-width: 70%;
 }
 .tips-questions-side-content{
     box-shadow: 0 1px 4px 0 rgba(102,98,98,0.4);
