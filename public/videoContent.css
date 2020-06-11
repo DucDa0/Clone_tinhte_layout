@@ -1,8 +1,16 @@
 .video-container{
     margin-top: 40px;
 }
-.new-posts-side-ad-wrap.ad-for-videoContent{
-    height: auto;
+.video-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.video-side{
+    max-width: 26%;
+}
+.video-main{
+    min-width: 72%;
 }
 /* video */
 .video-main-wrap{
@@ -107,6 +115,6 @@
     padding-left: 10px;
 }
 .new-posts-side-ad-cancel.long-height-ad{
-    top: 3.2%;
-    right: 5.8%;
+    top: 3.5%;
+    right: 6.2%;
 }

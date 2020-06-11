@@ -1,8 +1,16 @@
 .trending-posts-container{
     margin-top: 60px;
 }
+.trending-posts-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.trending-posts-side{
+    max-width: 26%;
+}
 .treding-posts-side-content{
-    height: 390px;
+    height: auto;
     width: 100%;
     border: 1px solid #e8e8e8;
     border-top: solid 6px hsl(216,31%,10%);
@@ -51,9 +59,19 @@
     padding: 15px 0;
 }
 /* trending-posts-main */
+.trending-posts-main{
+    max-width: 72%;
+}
+.trending-posts-side-discuss-wrap{
+    width: 100%;
+}
+.trending-posts-main-outstandingPosts-container{
+    width: 100%;
+}
 .trending-posts-main-outstandingPosts-wrap{
     position: relative;
     height: auto;
+    width: 100%;
     border-radius: 12px;
     overflow: hidden;
     background-color: #232C38;
@@ -169,6 +187,10 @@
 /* host posts */
 .hot-posts-container{
     margin-top: 25px;
+    width: 100%;
+}
+.hot-posts-wrap{
+    width: 100%;
 }
 .hot-posts-body-content{
     height: auto;
@@ -186,19 +208,19 @@
 .hot-posts-body-content-col-1{
     height: auto;
     max-width: 48.6%;
-    flex: 0 0 48.6%;
     position: relative;
     border-radius: 12px;
     background-color: #192433;
     overflow: hidden;
 }
 .hot-posts-body-content-col-1-frame{
-    height: 210px;
+    height: auto;
+    max-width: 100%;
 }
 .hot-posts-body-content-col-1-frame-link{
     text-decoration: none;
     display: flex;
-    height: 100%;
+    max-height: 100%;
 }
 .hot-posts-body-content-col-1-img{
     max-width: 100%;
@@ -206,7 +228,7 @@
 }
 .hot-posts-body-content-col-1-article{
     height: auto;
-    width: 100%;
+    max-width: 100%;
 }
 .hot-posts-body-content-col-1-article-wrap{
     padding: 50px 17px 0 17px;
@@ -243,7 +265,7 @@
 }
 .hot-posts-body-content-col-1-btn{
     position: absolute;
-    width: 90%;
+    min-width: 90%;
     top: 33%;
     left: 5%;
 }

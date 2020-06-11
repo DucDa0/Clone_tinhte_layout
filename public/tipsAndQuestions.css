@@ -1,6 +1,17 @@
 .tips-questions-container{
     margin-top: 25px;
 }
+.tips-questions-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.tips-questions-side{
+    max-width: 26%;
+}
+.tips-questions-main{
+    max-width: 72%;
+}
 .tips-questions-side-content{
     box-shadow: 0 1px 4px 0 rgba(102,98,98,0.4);
     border-radius: 12px;

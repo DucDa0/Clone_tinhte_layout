@@ -14,21 +14,6 @@
     flex-wrap: wrap;
     margin-left: -4px;
     margin-right: -4px;
-    justify-content: space-between;
-}
-
-.grid-row-fix {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: -4px;
-    margin-right: -4px;
-    justify-content: space-around;
-}
-
-.grid-row-fix-2 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
 }
 
 .grid-row.no-gutters {
@@ -75,17 +60,6 @@
     max-width: 33.33333%;
 }
 
-.c-4-fix {
-    flex: 0 0 31%;
-    max-width: 31%;
-}
-
-.c-4-fix-newPosts {
-    flex: 0 0 calc((335 / 1200) * 100% );
-    max-width: calc((335 / 1200) * 100% );
-    /* margin-right: calc((25 / 1200) * 100% ); */
-}
-
 .c-5 {
     flex: 0 0 41.66667%;
     max-width: 41.66667%;
@@ -96,11 +70,6 @@
     max-width: 50%;
 }
 
-.c-6-fix {
-    flex: 0 0 49.5%;
-    max-width: 49.5%;
-}
-
 .c-7 {
     flex: 0 0 58.33333%;
     max-width: 58.33333%;
@@ -109,11 +78,6 @@
 .c-8 {
     flex: 0 0 66.66667%;
     max-width: 66.66667%;
-}
-
-.c-8-fix {
-    flex: 0 0 calc(100% - calc((335 / 1200) * 100% ) - calc((25 / 1200) * 100% ));
-    max-width: calc(100% - calc((335 / 1200) * 100% ) - calc((25 / 1200) * 100% ));
 }
 
 .c-9 {
@@ -435,16 +399,16 @@
 
 /* Tablet - PC low resolution */
 @media (min-width: 740px) and (max-width: 1023px) {
-    .wide {
+    /* .wide {
         width: 644px;
-    }
+    } */
 }
 
 /* > PC low resolution */
 @media (min-width: 1024px) and (max-width: 1239px) {
-    .wide {
+    /* .wide {
         width: 984px;
-    }
+    } */
     .wide .grid-row {
         margin-left: -12px;
         margin-right: -12px;

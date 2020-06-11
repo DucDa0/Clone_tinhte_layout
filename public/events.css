@@ -1,6 +1,17 @@
 .events-container{
     margin-top: 50px;
 }
+.events-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.events-side{
+    max-width: 26%;
+}
+.events-main{
+    max-width: 72%;
+}
 .events-side-oldeEvent-wrap{
     height: auto;
     width: 100%;

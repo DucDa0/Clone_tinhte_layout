@@ -1,6 +1,6 @@
 .channels-container{
     background-color: #151D28;
-    height: 210px;
+    height: auto;
     border-bottom-left-radius: 12px;
     border-bottom-right-radius: 12px;
 }
@@ -34,6 +34,7 @@
     display: flex;
     justify-content: center;
     padding-top: 15px;
+    padding-bottom: 40px;
     margin: 0 85px;
     border-top: 1px solid #262E40;
 }

@@ -1,40 +1,9 @@
 /* Mobile and Tablet*/
 @media (max-width: 1023px){
 }
-
-@media (min-width: 1024px) and (max-width: 1239px){
-    .tags-hot-body-wrap{
-        justify-content: center;
-     }
-     .new-posts-side-ad-cancel{
-         top: 8%;
-         right: 7.1%;
-     }
-     .new-posts-side-ad-cancel.long-height-ad{
-        top: 3.8%;
-        right: 7.1%;
-     }
-     .hot-posts-body-content-col-1-btn{
-         top: 32%;
-     }
-}
 /* Tablet  */
 @media (min-width: 740px) and (max-width: 1023px){
-    .top-header.wide{
-        width: 100%;
-    }
-    .header-user{
-        padding-right: 10px;
-    }
-    .bottom-header-wrap.wide{
-        width: 100%;
-    }
-    .bottom-header-list{
-        padding-left: 15px;
-    }
-    .new-posts-side-ad-wrap{
-        display: none;
-    }
+    
 }
 /* Mobile */
 @media (max-width: 739px){

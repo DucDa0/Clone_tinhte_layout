@@ -1,6 +1,14 @@
 .new-posts-container{
     margin-top: 50px;
 }
+.new-posts-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.new-posts-side{
+    max-width: 26%;
+}
 .new-posts-side-ad-wrap{
     height: auto;
     width: 100%;
@@ -23,13 +31,12 @@
 }
 .new-posts-side-ad-img{
     height: auto;
-    width: 100%;
-    max-width: 300px;
+    max-width: 100%;
 }
 .new-posts-side-ad-cancel{
     position: absolute;
-    top: 7%;
-    right: 5.9%;
+    top: 7.5%;
+    right: 6.2%;
     height: 15px;
 }
 /* community */
@@ -299,6 +306,9 @@
     margin: 10px auto 10px;
 }
 /* new post */
+.new-posts-main{
+    max-width: 72%;
+}
 .new-posts-main-question-wrap{
     height: auto;
 }
