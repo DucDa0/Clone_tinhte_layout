@@ -231,7 +231,7 @@
     max-width: 100%;
 }
 .hot-posts-body-content-col-1-article-wrap{
-    padding: 50px 17px 0 17px;
+    padding: 0 17px 0 17px;
 }
 .hot-posts-body-content-col-1.bg-window{
     background-color: #1A1A1A;
@@ -264,10 +264,10 @@
     font-weight: 700;
 }
 .hot-posts-body-content-col-1-btn{
-    position: absolute;
+    position: relative;
     min-width: 90%;
-    top: 33%;
-    left: 5%;
+    top: -4%;
+    margin: 0 15px;
 }
 .hot-posts-body-content-col-1-btn:hover .col-1-btn-link{
     color: #1affff;

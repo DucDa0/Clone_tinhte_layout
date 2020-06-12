@@ -35,8 +35,8 @@
 }
 .new-posts-side-ad-cancel{
     position: absolute;
-    top: 7.5%;
-    right: 6.2%;
+    top: 7.2%;
+    right: 5.8%;
     height: 15px;
 }
 /* community */
@@ -292,8 +292,8 @@
     color: #00bad7;
 }
 .rank-list-item-posts{
-    display: flex;
-    align-items: flex-end;
+    margin-top: auto;
+    margin-left: auto;
 }
 .rank-list-item-posts-total{
     margin: 0;

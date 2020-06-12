@@ -39,12 +39,12 @@
 .events-side-oldeEvent-content{
     padding: 10px;
 }
-.events-side-oldeEvent-content-link:hover .events-side-oldeEvent-text{
-    color: #00bad7;
-}
 .events-side-oldeEvent-content-link{
     text-decoration: none;
     display: flex;
+}
+.events-side-oldeEvent-content-link:hover .events-side-oldeEvent-text{
+    color: #00bad7;
 }
 .events-side-oldeEvent-frame{
     margin-right: 10px;

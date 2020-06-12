@@ -24,7 +24,8 @@
     padding: 15px;
     display: flex;
     flex-wrap: wrap;
-    align-items: stretch;
+    align-items: center;
+    justify-content: center;
 }
 .tags-hot-body-item{
     margin: 14px;

@@ -1,8 +1,8 @@
 /* Mobile and Tablet*/
-@media (max-width: 1023px){
-    .tags-hot-body-wrap{
+@media (max-width: 63.9375em){ /* 1023px */
+    /* .tags-hot-body-wrap{
         justify-content: space-around;
-    }
+    } */
     .tags-hot-body-item{
         margin: 0 0 20px 0;
     }
@@ -13,10 +13,7 @@
     .tags-hot-body-item-tagName-content{
         width: 215px;
     }
-    .new-posts-side-ad-wrap{
-        display: none;
-    }
-    .video-side{
+    .new-posts-side-ad-wrap,.video-side{
         display: none;
     }
     .new-posts-side-community-content,.app-download-container,.rank-container,
@@ -34,7 +31,7 @@
     }
 }
 /* Tablet  */
-@media (min-width: 740px) and (max-width: 1023px){
+@media (min-width: 46.25em) and (max-width: 63.9375em){ /* 740px and 1023px*/
     /* header */
     .top-header{
         padding-right: 8px;
@@ -177,7 +174,6 @@
     .trending-posts-side{
         max-width: 100%;
     }
-   
     .trending-posts-content{
         display: block;
     }
@@ -195,9 +191,6 @@
     .hot-posts-body-content-col-1{
         max-width: 45%;
     }
-    .hot-posts-body-content-col-1-btn {
-        top: 28%;
-    }
     .hot-posts-title{
         margin-left: 25px;
     }
@@ -207,10 +200,10 @@
     }
   
     .tags-hot-body-wrap{
-        justify-content: flex-start;
+        justify-content: center;
     }
     .tags-hot-body-item {
-        margin: 0 15px 25px;
+        margin: 0 12px 25px;
     }
     /* tip questions */
     .tips-questions-wrap{
@@ -236,7 +229,6 @@
     .video-container{
         margin-top: 25px;
     }
-   
     .video-wrap{
         display: block;
     }
@@ -264,14 +256,12 @@
     .events-side{
         max-width: 100%;
     }
-   
     .events-main{
         max-width: 100%;
     }
     .events-main-body-content {
         padding: 24px 24px 90px;
     }
-  
     .new-posts-main-body-btn.tbn-for-event{
         width: 96%;
         top: 91.5%;
@@ -283,39 +273,414 @@
     .footer-container{
         margin-top: 0;
     }
+    
 }
 /* Mobile */
-@media (max-width: 739px){
+@media (max-width: 46.1875em){/* 739px */
     /* tinoibat */
-    .tinNoiBat-head .tinNoiBat-head-container:last-child{
-        display: none;
-    }
     .tinNoiBat-head-container{
         flex: 0 0 100%;
     }
-    .grid.wide{
+    .tinNoiBat-bottom{
+        flex-wrap: wrap;
+        width: 95%;
+        margin: auto;
+    }
+    .tinNoiBat-bottom-container{
+        flex: 0 0 100%;
+        display: flex;
+        padding: 15px 0;
+        border-top: 1px solid hsl(215,31%,24%);
+    }
+    .tinNoiBat-bottom-title-container {
+        padding: 0 0 5px;
+    }
+    .tinNoiBat-bottom-img{
+        width: 160px;
+        height: 100px;
+        border-radius: 10px;
+        max-width: unset;
+        max-height: unset;
+    }
+    .tinNoiBat-bottom-img-container{
+        margin-right: 10px;
+        height: 100px;
+    }
+    .tinNoiBat-head-title{
+        font-size: 1.6rem;
+    }
+    .tinNoiBat-bottom-title{
+        font-size: 1.4rem;
+    }
+    .tinNoiBat-head-title-head {
+        padding: 0 10px 0;
+    }
+    /* channels */
+    .channels-item-img {
+        width: 45px;
+        height: 45px;
+    }
+    .channels-feed {
+        margin: 0 55px;
+    }
+    .channels-feed-text{
+        font-size: 1.4rem;
+    }
+    /* news feed */
+    .news-feed-body-container{
+        margin: 0 5px;
+    }
+    .news-feed-body-item,.news-feed-body-cover-see,
+    .news-feed-body-item-add,.news-feed-body-item-img{
+        width: 130px;
+        height: 245px;
+    }
+    .news-feed-body-cover{
+        height: 245px;
+    }
+    .news-feed-body-item-add-user-img{
+        width: 52px;
+        height: 52px;
+    }
+    .news-feed-body-item-add-infor{
+        font-size: 1.2rem;
+    }
+    /* new posts */
+    .new-posts-side-community-btn{
+        width: 96%;
+        left: 2%;
+        top: 80%;
+    }
+    .new-posts-side-community-btn-link{
+        background-color: hsla(0,0%,90%,1);
+        color: #151D28;
+        width: 100%;
+    }
+    .new-posts-side-community-main{
+        padding: 0;
+    }
+    .new-posts-container{
+        margin-top: 10px;
+    }
+    .new-posts-side{
         max-width: 100%;
-        margin: unset;
     }
-    
+    .new-posts-side-community-main-wrap{
+        display: flex;
+        width: 100%;
+    }
+    .new-posts-side-community-main{
+        overflow-x: scroll;
+    }
+    .new-posts-side-community-main-item-link{
+        display: flex;
+        flex-direction: column;
+    }
+    .new-posts-side-community-main-item-tag{
+        display: none;
+    }
+    .new-posts-side-community-main-item{
+        padding: 6px 6px;
+    }
+    .new-posts-side-community-main-item-infor{
+        margin-left: 0;
+        width: 110px;
+    }
+    .new-posts-side-community-content{
+        height: 280px;
+    }
+    .app-download-container{
+        margin-top: 25px;
+    }
+    .app-download-title{
+        margin-top: 0;
+    }
+    .app-download-title-infor{
+        display: none;
+    }
+    .app-download-title-name{
+        padding: 10px 0;
+    }
+    .app-download-frame-img{
+        height: auto;
+        max-width: unset;
+        width: 100%;
+    }
+    .app-download-content{
+        background-color: unset;
+        border-radius: unset;
+    }
+    .app-download-container{
+        height: auto;
+    }
+    .app-download-list-item-img {
+        width: 150px;
+        height: 60px;
+    }
+    .rank-container{
+        margin-top: 25px;
+        height: auto;
+    }
+    .rank-title{
+        padding: 10px 0 15px;
+    }
+    .rank-list-wrap{
+        display: flex;
+        padding: 5px 15px 0;
+        height: auto;
+        overflow-x: scroll;
+    }
+    .rank-list-item{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+    .rank-list-item-infor-achi{
+        width: 130px;
+    }
+    .rank-title-link{
+       padding: 0;
+       font-size: 1.6rem;
+    }
+    .rank-list-item-posts{
+        display: none;
+    }
+    .rank-list-item-avt{
+        margin: 0;
+    }
+    .hounor{
+        display: none;
+    }
+    .respect{
+        max-width: 77%;
+        position: absolute;
+        left: 28%;
+        top: 48%;
+    }
+    .rank-list-item-avt-img{
+        width: 60px;
+        height: 60px;
+    }
+    .new-posts-main{
+        max-width: 100%;
+        margin-top: 25px;
+    }
+    .new-posts-main-question-title{
+        margin-left: 10px;
+    }
+    .new-posts-main-question-section{
+        margin-top: 10px;
+    }
+    .new-posts-main-question-section-wrap{
+        padding: 0 10px 40px 10px;
+    }
+    .new-posts-main-body-content{
+        padding: 10px;
+        flex-direction: column;
+        position: relative;
+        border-bottom: 1px solid #e6e6e6;
+    }
+    .new-posts-main-body-content-frame{
+        margin: 0;
+        height: 200px;
+    }
+    .new-posts-main-body-content-img{
+        width: 100%;
+        max-width: unset;
+    }
+    .new-posts-main-body-content-infor-title-text{
+        font-size: 1.5rem;
+        margin: 10px 0;
+    }
+    .new-posts-main-body-btn{
+        width: 96%;
+        left: 2%;
+        top: 98.8%;
+    }
+    .new-posts-main-body-btn-link{
+        width: 100%;
+        background-color: hsla(0,0%,90%,1);
+        color: #151D28;
+    }
+    .new-posts-main-body-container .new-posts-main-body-content:last-child {
+        padding-bottom: 90px;
+    }
+    /* trending post */
+    .trending-posts-container{
+        margin-top: 25px;
+    }
+    .trending-posts-side{
+        max-width: 100%;
+    }
+    .trending-posts-content{
+        display: block;
+    }
+    .treding-posts-side-img{
+        max-width: unset;
+    }
+    .trending-posts-main-outstandingPosts-body {
+        height: 300px;
+    }
+    .trending-posts-main{
+        max-width: 100%;
+        margin-top: 15px;
+    }
+    .trending-posts-main-outstandingPosts-title{
+        display: none;
+    }
+    .trending-posts-main-outstandingPosts-content{
+        margin: 0 20px;
+    }
+    .trending-posts-main-outstandingPosts-item{
+        height: 80%;
+    }
+    .trending-posts-main-outstandingPosts-frame,.trending-posts-main-outstandingPosts-img{
+        height: 110px;
+        width: 180px;
+    }
+    .trending-posts-main-outstandingPosts-btn-left,
+    .trending-posts-main-outstandingPosts-btn-right{
+        top: 38%;
+    }
+    .hot-posts-title{
+        margin-left: 10px;
+    }
+    .hot-posts-body-content{
+        flex-direction: column;
+        align-items: center;
+        justify-content: unset;
+    }
+    .hot-posts-body-content-col-1{
+        max-width: 95%;
+        margin-bottom: 10px;
+    }
+    .hot-posts-body-content-col-1-btn {
+        top: -24px;
+    }
+    /* tags hot */
+    .tags-hot-container{
+        margin-top: 15px;
+    }
+    .tags-hot-body-item-frame{
+        width: 150px;
+        height: 80px;
+    }
+    .tags-hot-body-item-tagName-content{
+        width: 150px;
+    }
+    .tags-hot-body-wrap{
+        justify-content: space-evenly;
+        padding: 5px 0;
+    }
+    /* tip questions */
+    .tips-questions-wrap{
+        display: block;
+    }
+    .tips-questions-side{
+        max-width: 100%;
+    }
+    .tips-questions-main{
+        max-width: 100%;
+        margin-top: 25px;
+    }
+    .tips-questions-main-section-wrap{
+        padding-bottom: 40px;
+    }
+    .new-posts-main-body-btn.tbn-for-question-content{
+        left: 2%;
+        top: 95.5%;
+    }
+    /* video */
+    .video-container{
+        margin-top: 25px;
+    }
+    .video-wrap{
+        display: block;
+    }
+    .video-main{
+        max-width: 100%;
+    }
+    .video-main-wrap{
+        padding: 10px 10px 80px;
+    }
+    .new-posts-main-body-btn.tbn-for-video-content{
+        width: 96%;
+        top: 103%;
+        left: 2%;
+    }
+    .new-posts-main-body-btn-link.tbn-for-video-content{
+        width: 100%;
+    }
+    /* event */
+    .events-container{
+        margin-top: 25px;
+    }
+    .events-wrap{
+        display: block;
+    }
+    .events-side{
+        max-width: 100%;
+    }
+    .events-main{
+        max-width: 100%;
+        margin-top: 25px;
+    }
+    .events-main-body-content {
+        padding: 24px 24px 90px;
+    }
+    .new-posts-main-body-btn.tbn-for-event{
+        width: 96%;
+        top: 91.5%;
+        left: 2%;
+    }
+    .new-posts-main-body-btn-link.tbn-for-event{
+        width: 100%;
+    }
+    .footer-container{
+        margin-top: 0;
+    }
+    .header{
+        display: none;
+    }
+    .events-main-body-content{
+        padding: 10px 10px 80px;
+    }
+    .events-main-body-content-list-item-time{
+        border: none;
+        width: 100%;
+        padding: 10px 0 10px 10px;
+        align-items: flex-start;
+    }
+    .events-main-body-content-list-item{
+        flex-direction: column;
+    }
+    .events-main-body-content-list-item-article{
+        width: 96%;
+        padding: 0 0 10px 10px;
+    }
+    .events-main-body-content-list-item-time-link{
+        display: flex;
+    }
+    .item-day{
+        margin-left: 10px;
+        color: #00bad7;
+        font-weight: 700;
+    }
+    .footer-content-target{
+        text-align: center;
+    }
 }
-@media (min-width: 1024px) and (max-width: 1239px){
-    .new-posts-container, 
-     .trending-posts-container, .tags-hot-container,
-    .tips-questions-container, .video-container, .events-container{
-        margin-left: 4px;
-        margin-right: 4px;
-    }
-    .hot-posts-body-content-col-1-btn{
-        top: 28%;
-    }
+@media (min-width: 64em) and (max-width: 77.4375em){
     .new-posts-side-ad-cancel{
         top: 8.3%;
-        right: 7.3%;
+        right: 7%;
     }
     .new-posts-side-ad-cancel.long-height-ad{
         top: 3.8%;
         right: 7.2%;
+    }
+    .new-posts-side-community-btn{
+        left: 15%;
     }
     .tags-hot-body-wrap{
         justify-content: space-around;
@@ -329,5 +694,10 @@
     }
     .tags-hot-body-item-tagName-content{
         width: 215px;
+    }
+}
+@media (min-width: 46.25em) and (max-width: 47.6875em){
+    .tags-hot-body-item {
+        margin: 0 8px 25px;
     }
 }
