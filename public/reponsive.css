@@ -282,6 +282,9 @@
         flex: 0 0 100%;
         max-width: 100%;
     }
+    .tinNoiBat-head .tinNoiBat-head-container{
+        margin-top: 0;
+    }
     .tinNoiBat-head-img{
         max-width: unset;
         max-height: unset;
@@ -453,6 +456,7 @@
     }
     .rank-list-item-avt{
         margin: 0;
+        width: 60px;
     }
     .hounor{
         display: none;
@@ -525,7 +529,7 @@
         max-width: unset;
     }
     .trending-posts-main-outstandingPosts-body {
-        height: 300px;
+        height: 285px;
     }
     .trending-posts-main{
         max-width: 100%;
