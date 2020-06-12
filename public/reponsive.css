@@ -186,10 +186,10 @@
         margin-top: 15px;
     }
     .hot-posts-body-content{
-        justify-content: space-evenly;
+        justify-content: space-around;
     }
     .hot-posts-body-content-col-1{
-        max-width: 45%;
+        max-width: 48%;
     }
     .hot-posts-title{
         margin-left: 25px;
@@ -280,6 +280,11 @@
     /* tinoibat */
     .tinNoiBat-head-container{
         flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .tinNoiBat-head-img{
+        max-width: unset;
+        max-height: unset;
     }
     .tinNoiBat-bottom{
         flex-wrap: wrap;
@@ -429,6 +434,7 @@
         padding: 5px 15px 0;
         height: auto;
         overflow-x: scroll;
+        
     }
     .rank-list-item{
         display: flex;
@@ -482,7 +488,7 @@
     }
     .new-posts-main-body-content-frame{
         margin: 0;
-        height: 200px;
+        height: auto;
     }
     .new-posts-main-body-content-img{
         width: 100%;
@@ -636,12 +642,7 @@
     .new-posts-main-body-btn-link.tbn-for-event{
         width: 100%;
     }
-    .footer-container{
-        margin-top: 0;
-    }
-    .header{
-        display: none;
-    }
+   
     .events-main-body-content{
         padding: 10px 10px 80px;
     }
@@ -669,7 +670,50 @@
     .footer-content-target{
         text-align: center;
     }
+    .footer-container{
+        margin-top: 0;
+    }
+    .seperate, .header-bottom-event{
+        display: none;
+    }
+    .top-header{
+        flex-direction: column;
+        align-items: unset;
+    }
+    .header-nav-list{
+        padding-left: 0;
+        margin: 5px 0;
+        display: flex;
+        justify-content: space-around;
+    }
+    .header-nav-item{
+        padding-right: 0;
+    }
+    .bottom-header-list .bottom-header-item:last-child{
+        padding-right: 0;
+    }
+    .bottom-header-list {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .header-nav{
+        order: 2;
+    }
+    .header-search_bar{
+        order: 3;
+        margin: 0 10px;
+    }
+    .header-user{
+        order: 1;
+        padding-left: 0;
+        align-self: flex-end;
+        margin-right: 8%;
+    }
+    .logo{
+        display: none;
+    }
 }
+/* some fix for low res PC */
 @media (min-width: 64em) and (max-width: 77.4375em){
     .new-posts-side-ad-cancel{
         top: 8.3%;
@@ -699,5 +743,27 @@
 @media (min-width: 46.25em) and (max-width: 47.6875em){
     .tags-hot-body-item {
         margin: 0 8px 25px;
+    }
+}
+/* for <=iphone 5 */
+@media (max-width: 21.25em){
+    .tags-hot-body-item-frame {
+        width: 130px;
+        height: 60px;
+    }
+    .tags-hot-body-item-tagName-content{
+        width: 130px;
+    }
+    .channels-item{
+        padding-right: 10px;
+    }
+    .channels-feed {
+        margin: 0 40px;
+    }
+    .channels-feed-text{
+        font-size: 1.2rem;
+    }
+    .bottom-header-item{
+        padding-right: 15px;
     }
 }

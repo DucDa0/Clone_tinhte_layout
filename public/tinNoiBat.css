@@ -13,6 +13,7 @@
     background-color: #151D28;
     height: auto;
     flex: 0 0 49.5%;
+    max-width: 49.5%;
     margin-top: 3px;
 }
 .tinNoiBat-head-container:hover .tinNoiBat-head-title{
