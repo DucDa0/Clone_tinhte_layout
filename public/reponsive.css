@@ -79,12 +79,14 @@
     .new-posts-side-community-main-wrap{
         display: flex;
         flex-wrap: wrap;
-        width: 100%;
-        justify-content: space-evenly;
+    }
+    .new-posts-side-community-main-item{
+        flex: 1 0 16.66667%; 
     }
     .new-posts-side-community-main-item-link{
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
     .new-posts-side-community-main-item-infor{
         margin-left: 0;
@@ -187,9 +189,11 @@
     }
     .hot-posts-body-content{
         justify-content: space-around;
+        flex-wrap: wrap;
     }
     .hot-posts-body-content-col-1{
         max-width: 48%;
+        flex: 1 0 48%;
     }
     .hot-posts-title{
         margin-left: 25px;
@@ -282,7 +286,7 @@
         flex: 0 0 100%;
         max-width: 100%;
     }
-    .tinNoiBat-head .tinNoiBat-head-container{
+    .tinNoiBat-head .tinNoiBat-head-container:last-child{
         margin-top: 0;
     }
     .tinNoiBat-head-img{
@@ -335,29 +339,57 @@
         font-size: 1.4rem;
     }
     /* news feed */
+    .news-feed-body{
+        height: 210px;
+    }
     .news-feed-body-container{
         margin: 0 5px;
     }
+    .news-feed-heading-txt{
+        font-size: 1.6rem;
+    }
+    .news-feed-head{
+        margin-left: 10px;
+    }
     .news-feed-body-item,.news-feed-body-cover-see,
     .news-feed-body-item-add,.news-feed-body-item-img{
-        width: 130px;
-        height: 245px;
+        width: 100px;
+        height: 180px;
     }
     .news-feed-body-cover{
-        height: 245px;
+        height: 180px;
+    }
+    .news-feed-body-item-name{
+        font-size: 1.1rem;
     }
     .news-feed-body-item-add-user-img{
-        width: 52px;
-        height: 52px;
+        width: 45px;
+        height: 45px;
+    }
+    .news-feed-body-item-add-plus{
+        width: 18px;
+        height: 18px;
+    }
+    .news-feed-body-item-see-text{
+        font-size: 1.1rem;
     }
     .news-feed-body-item-add-infor{
-        font-size: 1.2rem;
+        font-size: 1.1rem;
+    }
+    .news-feed-body-item-avt-link{
+        margin: 5px auto auto 5px;
+    }
+    .news-feed-body-item-name{
+        margin: auto auto 5px 5px;
     }
     /* new posts */
     .new-posts-side-community-btn{
         width: 96%;
         left: 2%;
         top: 80%;
+    }
+    .new-posts-main-body-title{
+        margin-left: 10px;
     }
     .new-posts-side-community-btn-link{
         background-color: hsla(0,0%,90%,1);
@@ -395,7 +427,7 @@
         width: 110px;
     }
     .new-posts-side-community-content{
-        height: 280px;
+        height: 255px;
     }
     .app-download-container{
         margin-top: 25px;
@@ -499,8 +531,8 @@
         max-width: unset;
     }
     .new-posts-main-body-content-infor-title-text{
-        font-size: 1.5rem;
-        margin: 10px 0;
+        font-size: 1.7rem;
+        margin: 5px 0;
     }
     .new-posts-main-body-btn{
         width: 96%;
@@ -561,7 +593,7 @@
         justify-content: unset;
     }
     .hot-posts-body-content-col-1{
-        max-width: 95%;
+        min-width: 95%;
         margin-bottom: 10px;
     }
     .hot-posts-body-content-col-1-btn {
